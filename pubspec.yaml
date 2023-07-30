@@ -1,0 +1,41 @@
+name: anigo
+description: Anime Streaming App.
+publish_to: 'none'
+version: 0.0.7
+
+environment:
+  sdk: '>=3.1.0-213.0.dev <4.0.0'
+
+dependencies:
+  dio: ^5.2.1+1
+  flutter:
+    sdk: flutter
+  flutter_image: ^4.1.6
+  flutter_inappwebview: ^5.7.2+3
+  flutter_native_splash: ^2.3.1
+  google_fonts: ^5.1.0
+  path_provider: ^2.0.15
+  toast: ^0.3.0
+
+flutter_native_splash:
+  color: "#171717"
+  image: assets/splash.png
+  color_dark: "#171717"
+  image_dark: assets/splash.png
+
+  android_12:
+    image: assets/splash.png
+    icon_background_color: "#171717"
+    image_dark: assets/splash.png
+    icon_background_color_dark: "#171717"
+
+  web: false
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
