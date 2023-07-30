@@ -4,7 +4,8 @@ import 'recent_watch.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 
-const String baseUrl = "https://api.consumet.org/anime/gogoanime";
+const String baseUrl = "https://api.consumet.org/" +
+    "anime/gogoanime"; // your consument api + anime/gogoanime
 
 //Replace "https://api.consumet.org" this with your consument api
 
