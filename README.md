@@ -1,6 +1,6 @@
 # Anigo - Anime Streaming App
-This app was built using [Consument API](https://api.consumet.org/) and Flutter.
-Please refer to [Consument API](https://api.consumet.org/) GitHub page to know more about API and its hosting!
+This app was built using [Consument API]([https://api.consumet.org/](https://github.com/consumet/api.consumet.org)) and Flutter.
+Please refer to [Consument API](h[ttps://api.consumet.org/](https://github.com/consumet/api.consumet.org)) GitHub page to know more about API and its hosting!
 
 ## **How to use?**
 *Note: Before you go ahead, please make sure you have [Flutter](https://docs.flutter.dev/get-started/install) installed on your device.*
